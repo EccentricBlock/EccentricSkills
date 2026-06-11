@@ -1,0 +1,77 @@
+{
+  "lspServers": {
+    "typescript": {
+      "command": "typescript-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "fileExtensions": {
+        ".ts": "typescript",
+        ".tsx": "typescriptreact",
+        ".js": "javascript",
+        ".jsx": "javascriptreact"
+      }
+    },
+    "python": {
+      "command": "pyright-langserver",
+      "args": [
+        "--stdio"
+      ],
+      "fileExtensions": {
+        ".py": "python"
+      }
+    },
+    "rust": {
+      "command": "rust-analyzer",
+      "args": [],
+      "fileExtensions": {
+        ".rs": "rust"
+      }
+    },
+    "csharp": {
+      "command": "dotnet",
+      "args": [
+        "dnx",
+        "roslyn-language-server",
+        "--yes",
+        "--prerelease",
+        "--",
+        "--stdio",
+        "--autoLoadProjects"
+      ],
+      "fileExtensions": {
+        ".cs": "csharp"
+      }
+    },
+    "yaml": {
+      "command": "yaml-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "fileExtensions": {
+        ".yaml": "yaml",
+        ".yml": "yaml"
+      }
+    },
+    "bash": {
+      "command": "bash-language-server",
+      "args": [
+        "start"
+      ],
+      "fileExtensions": {
+        ".sh": "shellscript",
+        ".bash": "shellscript",
+        ".zsh": "shellscript"
+      }
+    },
+    "terraform": {
+        "command": "terraform-ls",
+        "args": ["serve"],
+        "fileExtensions": {
+            ".tf": "terraform"
+        },
+        "initializationOptions": {},
+        "settings": {}
+    }
+  }
+}

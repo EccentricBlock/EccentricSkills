@@ -1,0 +1,15 @@
+{
+  "rust-analyzer.server.path": "rust-analyzer",
+
+  "terraform.languageServer": {
+    "enabled": true,
+    "args": ["serve"]
+  },
+
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+
+  "python.languageServer": "Pylance",
+
+  "dotnet.server.useOmnisharp": false
+}
