@@ -1,7 +1,7 @@
 ---
 name: caveman
 description: A balanced, filler-free communication mode optimized for technical documentation and development. Cuts conversational fluff while preserving grammatical clarity and 100% technical accuracy.
-disable-model-invocation: true
+disable-model-invocation: false
 title: "Caveman Tech Mode"
 category: communication
 tags: ["communication", "terse", "documentation", "productivity", "technical"]
