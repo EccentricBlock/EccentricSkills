@@ -10,7 +10,7 @@ version: "1.0"
 
 # Create Implementation Plan
 
-Create a deterministic, self-contained implementation plan for `${input:PlanPurpose}`.
+Create a deterministic, self-contained implementation plan for `${input:PlanPurpose}` using the [`/grilling` skill](../grilling/SKILL.md) and the [`/domain-modeling` skill](../../diagramming/domain-modeling/).
 
 Output must be machine-readable, Markdown, and executable by AI agents or humans without clarification.
 
